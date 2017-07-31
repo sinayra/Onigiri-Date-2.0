@@ -21,7 +21,7 @@ label kuroi:
     hide noname
     hide kuroi
     
-    "Noname acaba juntando as cartas as entrega pro Kuroi"
+    "Noname acaba juntando as cartas e as entrega pro Kuroi"
     
     show noname mas at left
     show kuroi preocupado at right
