@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/kuroi.rpy", line 110, in script
+    kuroi "Faz, sei lá, 8 meses que ele tá nos 50% e nunca saiu disso."
+TypeError: a float is required
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/kuroi.rpy", line 110, in script
+    kuroi "Faz, sei lá, 8 meses que ele tá nos 50% e nunca saiu disso."
+  File "D:\RenPy\renpy-6.99.12.4-sdk\renpy\ast.py", line 613, in execute
+    renpy.exports.say(who, what, interact=self.interact)
+  File "D:\RenPy\renpy-6.99.12.4-sdk\renpy\exports.py", line 1139, in say
+    what = what % tag_quoting_dict
+TypeError: a float is required
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Onigiri Date 2.0
