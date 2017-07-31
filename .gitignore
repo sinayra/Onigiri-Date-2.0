@@ -51,3 +51,5 @@ Onigiri Date 2.0/game/images
 
 *.png
 *.save
+*.rpyc
+*.zip

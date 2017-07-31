@@ -301,7 +301,7 @@ label kuroi:
                         show kuroi feliz
                         kuroi "Ah, então deixa te mostrar o Bolota."
                         
-                        show cs kuroi with ease
+                        show cs kuroi with dissolve
                         kuroi "Olha só essas patinhazinhas fofinhas que dá vontade de apertar! Onhonhonhonho"
                         noname "É, como ele é fofo..."
                         kuroi "Como não achar o Bolota fofo, né mesmo?"

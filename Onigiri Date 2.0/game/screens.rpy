@@ -248,9 +248,9 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("Voltar") action Rollback()
+            #textbutton _("Voltar") action Rollback()
             #textbutton _("Histórico") action ShowMenu('history')
-            textbutton _("Avançar") action Skip() alternate Skip(fast=True, confirm=True)
+            #textbutton _("Avançar") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             #textbutton _("Salvar") action ShowMenu('save')
             #textbutton _("Q.Save") action QuickSave()
@@ -998,21 +998,21 @@ screen keyboard_help():
         label _("Escape")
         text _("Acessa menu do jogo")
 
-    hbox:
-        label _("Ctrl")
-        text _("Pula diálogos")
+    #hbox:
+    #    label _("Ctrl")
+    #    text _("Pula diálogos")
 
-    hbox:
-        label _("Tab")
-        text _("Alterna entre pular e não pular diálogos")
+    #hbox:
+    #    label _("Tab")
+    #    text _("Alterna entre pular e não pular diálogos")
 
-    hbox:
-        label _("Page Up")
-        text _("Volta um diálogo atrás")
+    #hbox:
+    #    label _("Page Up")
+    #    text _("Volta um diálogo atrás")
 
-    hbox:
-        label _("Page Down")
-        text _("Avança um diálogo depois")
+    #hbox:
+    #    label _("Page Down")
+    #    text _("Avança um diálogo depois")
 
     hbox:
         label "H"
@@ -1041,9 +1041,9 @@ screen mouse_help():
         label _("Botão direito")
         text _("Acessa menu do jogo")
 
-    hbox:
-        label _("Bolinha do mouse")
-        text _("Avança ou volta um diálogo")
+    #hbox:
+    #    label _("Bolinha do mouse")
+    #    text _("Avança ou volta um diálogo")
 
     #hbox:
     #    label _("Mouse Wheel Down")
@@ -1060,9 +1060,9 @@ screen gamepad_help():
         label _("Left Trigger\nLeft Shoulder")
         text _("Volta para diálogo anterior")
 
-    hbox:
-        label _("Right Shoulder")
-        text _("Avança um diálogo")
+    #hbox:
+    #    label _("Right Shoulder")
+    #    text _("Avança um diálogo")
 
     hbox:
         label _("D-Pad, Sticks")
@@ -1406,8 +1406,8 @@ screen quick_menu():
         xalign 0.5
         yalign 1.0
 
-        textbutton _("Voltar") action Rollback()
-        textbutton _("Avançar") action Skip() alternate Skip(fast=True, confirm=True)
+        #textbutton _("Voltar") action Rollback()
+        #textbutton _("Avançar") action Skip() alternate Skip(fast=True, confirm=True)
         textbutton _("Auto") action Preference("auto-forward", "toggle")
         textbutton _("Menu") action ShowMenu()
 

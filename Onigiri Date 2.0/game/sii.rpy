@@ -391,7 +391,7 @@ label sii:
                                     pause(1.0)
                                     show sii competitiva with ease
                                     
-                                    show cs sii with ease
+                                    show cs sii with dissolve
                                     sii "Você é uma fofa, sabia?"
                                     noname "SII! Não, calma, que-que você tá faze-endo, wah, va-va-vamos com calma, wah."
                                     

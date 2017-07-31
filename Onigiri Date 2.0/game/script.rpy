@@ -207,7 +207,7 @@ label start:
         
         sii "Bom, eu vou voltar pra recepção. Qualquer dúvida sobre o jogo, pode me visitar por lá!"
         
-        hide sii
+        hide sii with dissolve
         
         show noname hm at center
         

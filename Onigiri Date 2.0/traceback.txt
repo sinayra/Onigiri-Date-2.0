@@ -1,21 +1,31 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/kuroi.rpy", line 110, in script
-    kuroi "Faz, sei lá, 8 meses que ele tá nos 50% e nunca saiu disso."
-TypeError: a float is required
+  File "game/gui.rpy", line 19, in script
+    $ config.keymap['skip'].remove('K_TAB')
+  File "game/gui.rpy", line 19, in <module>
+    $ config.keymap['skip'].remove('K_TAB')
+ValueError: list.remove(x): x not in list
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/kuroi.rpy", line 110, in script
-    kuroi "Faz, sei lá, 8 meses que ele tá nos 50% e nunca saiu disso."
-  File "D:\RenPy\renpy-6.99.12.4-sdk\renpy\ast.py", line 613, in execute
-    renpy.exports.say(who, what, interact=self.interact)
-  File "D:\RenPy\renpy-6.99.12.4-sdk\renpy\exports.py", line 1139, in say
-    what = what % tag_quoting_dict
-TypeError: a float is required
+  File "D:\RenPy\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "D:\RenPy\renpy-6.99.12.4-sdk\renpy\main.py", line 419, in main
+    game.context().run(node)
+  File "game/gui.rpy", line 19, in script
+    $ config.keymap['skip'].remove('K_TAB')
+  File "D:\RenPy\renpy-6.99.12.4-sdk\renpy\ast.py", line 814, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\RenPy\renpy-6.99.12.4-sdk\renpy\python.py", line 1719, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/gui.rpy", line 19, in <module>
+    $ config.keymap['skip'].remove('K_TAB')
+  File "D:\RenPy\renpy-6.99.12.4-sdk\renpy\python.py", line 618, in do_mutation
+    return method(self, *args, **kwargs)
+ValueError: list.remove(x): x not in list
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
-Onigiri Date 2.0
+ 

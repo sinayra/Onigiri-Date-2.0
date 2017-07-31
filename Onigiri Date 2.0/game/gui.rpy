@@ -14,6 +14,9 @@ init python:
 
 init:
     $ config.keymap['game_menu'].remove('K_ESCAPE')
+    $ config.keymap['skip'].remove('K_LCTRL')
+    $ config.keymap['skip'].remove('K_RCTRL')
+    $ config.keymap['toggle_skip'].remove('K_TAB')
 
 ################################################################################
 ## GUI Configuration Variables
