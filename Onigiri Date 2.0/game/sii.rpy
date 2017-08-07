@@ -129,6 +129,7 @@ label sii:
             label continuaSii1:
                 show sii naosei
                 sii "Se você contar as vezes que tive que testar mais as vezes que o player tá jogando esse jogo... Algumas muitas vezes."
+                sii "Isso sem falar que esta é a segunda versão deste jogo, então foram ainda mais vezes."
                 
                 show noname surpresa
                 noname "É bem difícil ter que ficar testando jogo, né?"

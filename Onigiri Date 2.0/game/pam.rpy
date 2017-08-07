@@ -14,7 +14,7 @@ label pam:
     show pam at right
     
     noname "Boa tarde."
-    pam "Boat tarde...?"
+    pam "Boa tarde...?"
     pam "Hey, você é nova por aqui? Eu acho que nunca te vi aqui no Onigiri."
     noname "Aham, cheguei hoje. Prazer, me chamo Noname, moro no bloco I."
     pam "Prazer, Noname, eu chamo Pam, moro no H, aqui do lado. Uma pergunta..."

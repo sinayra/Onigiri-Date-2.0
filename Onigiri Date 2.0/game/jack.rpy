@@ -18,7 +18,7 @@ label jack:
     jack "Como tu chegaste hoje, imagino que não saibas nada sobre o Onigiri, né? Eu estava indo para o chat, quer ir comigo?"
     noname "Chat?"
     show jack
-    jack "É onde todo mundo do Onigiri se reune para bater papo, pedir ajuda com dever de matemática, reclamar com a Sii sobre dever de matemática e essas coisas."
+    jack "É onde todo mundo do Onigiri se reune para bater papo, comer gelatina, reclamar com a Sii sobre dever de matemática e essas coisas."
     
     menu:
         "É muita gentileza sua, Jack, mas acho que prefiro continuar explorando o Onigiri.":
@@ -98,7 +98,7 @@ label jack:
         jack "Já está indo embora, Kuroi?"
         kuroi "Já, tenho que ir lá no bloco I avisar um dos moradores que ele tá sem selo, eu só vim pra cá mais pra descansar as pernas mesmo. Até mais, gente!"
         
-        hide kuroi
+        hide kuroi with dissolve
         
         show jack
         jack "O Kuroi é um moço bem difícil de conversar, né?"

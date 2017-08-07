@@ -34,7 +34,7 @@ label yuzu:
     yuzu "Tem sim, fofa. Aqui, óh."
     
     show noname hm
-    noname "Uma pergunta só de curiosade, você trabalha nesses empregos todos sozinha?"
+    noname "Uma pergunta só de curiosidade, você trabalha nesses empregos todos sozinha?"
     show yuzu seria
     yuzu "Nãããão não. Eu tenho minha equipe para cuidar daqui, do castelo e da escola, mas aqui do Neko Party em especial, as vezes peço ajuda para o Morango."
     noname "Morango?"

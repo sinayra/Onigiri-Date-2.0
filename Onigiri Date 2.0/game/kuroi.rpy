@@ -31,7 +31,7 @@ label kuroi:
     
     show noname feliz
     menu:
-        "Você quer ajuda? Aí eu aproveito e descobro como são mais ou menos o Onigiri e a rotina dele.":
+        "Você quer ajuda? Aí eu aproveito e descubro como é mais ou menos o Onigiri e a rotina do pessoal daqui.":
             jump continuaKuroi1
         "Cinco dá pra terminar rapidinho, né? Depois de entregá-las, o que vai fazer?":
             jump naoKuroi1
